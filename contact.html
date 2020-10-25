@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+    <title>Wikiplane - Contact</title>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="images/logo.ico" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="nav">
+                <a href="index.php" class="home">Accueil</a>
+                <a href="toplist.php" class="toplist">Top 10</a>
+                <a class="active" href="contact.html">Contactez-nous</a>
+                <a href="about.html" class="about">&Agrave; propos</a>
+                <a href="sources.html" class="sources">Sources</a>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+        <form action="./php/form.php" method="post">
+            <div>
+                <table>
+                    <tr>
+                        <td><label for="nom">Nom*</label>
+                        </td>
+                        <td><input type="text" id="nom" name="nom" size="40" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="prenom">Pr&eacute;nom*</label>
+                        </td>
+                        <td><input type="text" id="prenom" name="prenom" size="40" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="courriel">Courriel*</label>
+                        </td>
+                        <td><input type="text" id="courriel" name="courriel" size="40" required>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><label for="raison">Pourquoi &ecirc;tes-vous insatisfaits?*</label>
+                        </td>
+                        <td><select id="raison" name="raison">
+                            <option value="Informations erronees">Informations erron&eacute;es</option>
+                            <option value="Performance inadequate du site web">Performance inad&eacute;quate du site web</option>
+                            <option value="Qualite du site web">Qualit&eacute; du site web</option>
+                            <option value="Compatibilite">Compatibilit&eacute;</option>
+                            <option value="Autre">Autre</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="plainte">Votre message*</label></td>
+                        <td><textarea name="plainte" id="plainte" required></textarea></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <br>
+                <input type="hidden" name="rating" value="good">
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </div>
