@@ -22,7 +22,9 @@ Il suffit de démarrer le serveur PHP avec tous les fichiers présents dans le d
 
 ```files```: Le dossier ```files``` contient le fichier plainte.txt (créé si absent) qui est utilisé pour la sauvegarde des commentaires dans le formulaire.
 
-```images```: Le dossier ```images``` contient toutes les images utilisées dans le site web. 
+```images```: Le dossier ```images``` contient toutes les images utilisées dans le site web.
+
+```html```: Le dossier ```html``` contient toutes les pages ```html``` du site web. 
 
 ```php```: Le dossier ```php``` contient tous les fichiers ```.php``` servant au back-end du site web.
 
