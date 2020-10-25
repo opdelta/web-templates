@@ -8,7 +8,7 @@
     <title>Wikiplane - Top 10</title>
     <meta charset="utf-8">
     <link href="../css/style.css" rel="stylesheet" type="text/css">
-    <link rel="icon" href="images/logo.ico" />
+    <link rel="icon" href="../images/logo.ico" />
 </head>
 
 <body>
