@@ -4,7 +4,7 @@ body {
     padding: 0;
     width: 100%;
     color: #ffffff;
-    font-family: normal 12px/1.8em Arial, Helvetica, sans-serif;
+    font-family: normal Arial, Helvetica, sans-serif;
     background: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,7 +18,7 @@ h1 {
     padding: 8px 0 40px 24px;
     float: left;
     color: #8c00ff;
-    font-family: normal 36px/1.2em Arial, Helvetica, sans-serif;
+    font-family: normal Arial, Helvetica, sans-serif;
     letter-spacing: -2px;
 }
 
@@ -28,12 +28,12 @@ h2 {
     padding: 8px 0 40px 24px;
     float: left;
     color: #ffffff;
-    font-family: normal 36px/1.2em Arial, Helvetica, sans-serif;
+    font-family: normal Arial, Helvetica, sans-serif;
 }
 
 .nav {
     width: 100%;
-    background-color: rgba(0, 2, 10, 0.205);
+    background-color: rgb(0, 2, 10, 0.205);
     position: fixed;
 }
 
@@ -47,7 +47,7 @@ h2 {
 }
 
 .nav a:hover {
-    background-color: rgba(255, 174, 0, 0.226);
+    background-color: rgb(255, 174, 0, 0.226);
 }
 
 .active {
@@ -55,9 +55,8 @@ h2 {
 }
 
 img {
-    border: 1px solid #ddd;
+    border: solid rgb(174, 0, 255);
     border-radius: 50%;
-    padding: 2px;
     width: 200px;
 }
 
@@ -74,7 +73,7 @@ img:hover {
 .article_content {
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(140, 0, 255, 0.13);
+    background-color: rgb(140, 0, 255, 0.13);
 }
 
 table,
@@ -82,7 +81,7 @@ th,
 td {
     border: 1px solid rgb(255, 255, 255);
     border-collapse: collapse;
-    background-color: rgba(140, 0, 255, 0.13);
+    background-color: rgb(140, 0, 255, 0.13);
 }
 
 h3 {
@@ -90,19 +89,17 @@ h3 {
 }
 
 .submain_sources {
-    background-color: rgba(255, 255, 255, 0.863);
+    background-color: rgb(255, 255, 255, 0.863);
     color: rgb(0, 0, 0);
     width: 100%;
     float: left;
 }
 
 .sidebar {
-    width: 310px;
+    width: 330px;
     position: fixed;
     right: 0;
-    background-color: rgba(140, 0, 255, 0.13);
-    padding-top: 20px;
-    padding-right: 5px;
+    background-color: rgb(140, 0, 255, 0.13);
 }
 
 .sidebar a {
@@ -117,7 +114,7 @@ h3 {
 }
 
 .submain_list {
-    background-color: rgba(255, 255, 255, 0.61);
+    background-color: rgb(255, 255, 255, 0.61);
     color: rgb(0, 0, 0);
     width: 100%;
     float: left;
