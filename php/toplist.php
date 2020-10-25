@@ -1,5 +1,5 @@
 <?php
-    include 'php/table.php';
+    include 'table.php';
 ?>
 <!DOCTYPE html>
 <html lang='fr'>
@@ -7,7 +7,7 @@
 <head>
     <title>Wikiplane - Top 10</title>
     <meta charset="utf-8">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="images/logo.ico" />
 </head>
 
@@ -15,11 +15,11 @@
     <div class="main">
         <div class="header">
             <div class="nav">
-                <a href="index.php" class="home">Accueil</a>
+                <a href="../index.php" class="home">Accueil</a>
                 <a class=active href="toplist.php">Top 10</a>
-                <a href="contact.html" class="contact">Contactez-nous</a>
-                <a href="about.html" class="about">&Agrave; propos</a>
-                <a href="sources.html" class="sources">Sources</a>
+                <a href="../html/contact.html" class="contact">Contactez-nous</a>
+                <a href="../html/about.html" class="about">&Agrave; propos</a>
+                <a href="../html/sources.html" class="sources">Sources</a>
             </div>
         </div>
         <br><br><br>

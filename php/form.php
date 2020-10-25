@@ -6,7 +6,7 @@ include 'filewriter.php';
 
 if(isDataValid()) {
     saveForm();
-    header("Location: ../success.html", true, 302);
+    header("Location: ../html/success.html", true, 302);
 }
 
 function isDataValid(){

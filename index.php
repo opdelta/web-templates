@@ -17,10 +17,10 @@
         <div class="header">
             <div class="nav">
                 <a class="active" href="index.php">Accueil</a>
-                <a href="toplist.php" class="toplist">Top 10</a>
-                <a href="contact.html" class="contact">Contactez-nous</a>
-                <a href="about.html" class="about">&Agrave; propos</a>
-                <a href="sources.html" class="sources">Sources</a>
+                <a href="./php/toplist.php" class="toplist">Top 10</a>
+                <a href="./html/contact.html" class="contact">Contactez-nous</a>
+                <a href="./html/about.html" class="about">&Agrave; propos</a>
+                <a href="./html/sources.html" class="sources">Sources</a>
             </div>
         </div>
         <br><br><br>
