@@ -2,78 +2,65 @@
 <html lang='fr'>
 
 <head>
-    <title>&#129415;Wikiplane</title>
+    <title>Traiteur bonheur</title>
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="images/logo.ico" />
 </head>
 
 <body>
-    <div class="main">
-        <div class="header">
-            <div class="nav">
-                <a class="active" href="index.html"><i class="home"></i>Accueil</a>
-                <a href="php/calulator.php"><i class="calculator"></i>Calculatrice</a>
-                <a href="contact.html"><i class="contact"></i>Contactez-nous</a>
-                <a href="about.html"><i class="about"></i>À propos</a>
-            </div>
-        </div>
-        <br><br><br><br><br>
-        <h1>Wikiplane</h1>
-    </div>
-    <div class="content">
-        <div class="submain">
-            <br><br><br><br>
-            <div class="article">
-                <h2><span>Cessna 172 Skyhawk</span></h2>
-                <img src="images/C172.jpg" class="thumbnail" />
-                <p class="article_content">Le Cessna Skyhawk 172 est l'avion monomoteur le plus populaire jamais construit. <br> Avec des caractéristiques de vol tolérantes, une très bonne visibilité,<br> l'option d'avoir des avioniques sophistiqué avec le modèle G1000,<br> le
-                    Cessna Skyhawk est l'avion le plus populaire pour la formation au pilotage et est parfaitement adapté aux élèves pilotes.</p>
-                <table class="borders">
-                    <thead>
-                        <tr>
-                            <th>Vitesse de croisière</th>
-                            <th>Altitude maximale</th>
-                            <th>Endurance</th>
-                            <th>Portée</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>124 KTAS</td>
-                            <td>14,000 pi</td>
-                            <td>7 Hr</td>
-                            <td>3,500 NM</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <br><br><br><br>
-            <div class="article">
-                <h2><span>Beechcraft Baron G58</span></h2>
-                <p class="info"><span>Autonomie: 7 heures Portée: 1480 miles nautiques 
-                            Vitesse de croisière: 325 km / h
-                            Altitude maximale: </span></p>
-                <img src="images/BB58.jpg" class="thumbnail" />
-            </div>
-            <br><br><br><br>
-            <div class="article">
-                <h2><span>Cessna 172</span></h2>
-                <p class="info"><span>Autonomie: 1185 km Vitesse maximale: 302 km / h 
-                            Vitesse de croisière: 226 km / h
-                            Type de moteur: Continental O-300</span></p>
-                <img src="images/C172.jpg" class="thumbnail" />
-            </div>
-            <br><br><br><br>
-            <div class="article">
-                <h2><span>Cessna 172</span></h2>
-                <p class="info"><span>Autonomie: 1185 km Vitesse maximale: 302 km / h 
-                            Vitesse de croisière: 226 km / h
-                            Type de moteur: Continental O-300</span></p>
-                <img src="images/C172.jpg" class="thumbnail" />
-            </div>
-        </div>
-    </div>
 
+    <div class="navbar" id="navbar">
+        <a href="commande.php">Commande</a>
+        <a href="contact.html">Contact</a>
+        <a href="menu.html">Informations</a>
+        <a href="index.html" class="active">Accueil</a>
+    </div>
+    <div class="banner">
+        <div class="banner-text">
+            <h1>Traiteur bonheur</h1>
+            <p>Vous serez trait&eacute; aux petits oignons!</p>
+        </div>
+    </div>
+    <div>
+        <aside class="layout box_container box_info">
+            <a href="menu.html" class="box box1">
+                <figure class="box_photo box1_photo"><img src="images/menu.png" alt="" class="box1_img"></figure>
+                <h2 class="box_title">Notre menu</h2>
+                <p class="box_txt">
+
+                    Pour un service hebdomadaire complet et des repas vari&eacute;s&agrave; chaque jour de la semaine!
+
+                </p>
+                <span class="button box_button">Voir</span>
+            </a>
+            <a href="commande.php" class="box box2">
+                <figure class="box_photo box2_photo"><img src="images/commande.svg" alt="" class="box2_img"></figure>
+                <h2 class="box_title">Commandez en ligne</h2>
+                <p class="box_txt">
+
+                    Pr&ecirc;t &agrave; commander? Avec des choix vari&eacute;, vous serez trait&eacute; aux petits oignons!
+
+                </p>
+                <span class="button box_button">Commander</span>
+            </a>
+            <a href="contact.html" class="box box3">
+                <figure class="box_photo box3_photo"><img src="images/contact.png" alt="" class="box3_img"></figure>
+                <h2 class="box_title">Contactez-nous</h2>
+                <p class="box_txt">
+
+                    Vous h&eacute;sitez? Visitez notre page de contact afin d'avoir nos coordonn&eacute;es pour nous rejoindre.
+
+                </p>
+                <span class="button box_button">Contactez-nous</span>
+            </a>
+        </aside>
+    </div>
+    <div id="copyright">
+        <div class="footer">
+            <p>Traiteur bonheur - Ziad Lteif 2020</p>
+        </div>
+    </div>
 </body>
 
 </html>
