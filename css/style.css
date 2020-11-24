@@ -34,7 +34,7 @@
     }
     
     .banner {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.jpg");
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -211,7 +211,7 @@
     }
     
     .banner-contact {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.jpg");
         height: 75%;
         background-position: center;
         background-repeat: no-repeat;
@@ -225,7 +225,7 @@
     }
     
     .banner-menu {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.jpg");
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -297,4 +297,60 @@
         background: transparent;
         color: #fff;
         border: 3px solid white;
+    }
+    
+    .banner-order {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.jpg");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .order-form {
+        text-align: center;
+    }
+    
+    .form-title {
+        text-align: center;
+    }
+    
+    form .input {
+        font-weight: bold;
+    }
+    
+    .answer {
+        padding-left: 10px;
+        text-indent: -10px;
+    }
+    
+    .validEntry {
+        font-weight: bold;
+        color: black;
+    }
+    
+    .invalidEntry {
+        font-weight: bold;
+        color: red;
+    }
+    
+    input[type="radio"] {
+        margin-top: -1px;
+        vertical-align: middle;
+    }
+    
+    label {
+        display: inline-block;
+        width: 200px;
+        text-align: right;
+    }
+    
+    .banner-confirmation {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/confirmation.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
     }
