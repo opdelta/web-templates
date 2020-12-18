@@ -13,8 +13,6 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="vendor/css/bootstrap.css" rel="stylesheet" />
         <link href="CSS/style.css" rel="stylesheet" />
-        <script src="js/fetch.js"></script>
-        <script src="js/contact.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -254,8 +252,8 @@
         <script src="vendor/js/bootstrap.bundle.min.js"></script>
         <script src="vendor/js/jquery.easing.min.js"></script>
         <script src="js/scripts.js"></script>
-        <!-- Contact form JS-->
-        <!-- Core theme JS-->
+        <script src="js/fetch.js"></script>
+        <script src="js/contact.js"></script>
         <!-- Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
