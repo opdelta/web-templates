@@ -13,3 +13,5 @@ function readAndRandomizeCSV($filename) {
     shuffle($matrix);
     return $matrix;
 }
+
+?>
