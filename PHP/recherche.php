@@ -7,13 +7,14 @@ $shift = array_shift($animalsList);
 //request récupère le paramètre envoyé. Sur votre page -> click droit -> inspect -> Network
 //vous pourrez voir que le serveur envoi le contenu du input dans l'attribut q.
 $q = $_REQUEST["q"];
-
+$count = 0;
 if($q != ""){
-    $count = 0;
+    $total = 0;
     $q = strtoupper($q);
     foreach ($animalsList as $animals) {
         if(stristr($animals, $q)){
-            $count = 1;
+            $found = 1;
+            $count++;
             $array = explode(",", $animals);
             echo "<a class=\"portfolio-link\" data-toggle=\"modal\" href=\"#portfolioModalSearch" . $count . "\">";
             echo "<div class=\"portfolio-hover\">";
@@ -52,7 +53,9 @@ if($q != ""){
             echo "</div>";
         }
     }
-    if ($count == 0) {
+    if ($found == 0) {
         echo "Aucun animal n'a &eacute;t&eacute; trouv&eacute;!";
     }
 }  
+
+?>
